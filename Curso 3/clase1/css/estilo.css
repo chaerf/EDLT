@@ -1,0 +1,23 @@
+body
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: red;
+		color: white;
+		text-align: center;
+	}
+
+section
+	{
+		background-color: black;
+		color: white;
+	}
+
+h2
+	{
+		color: orange;
+	}
