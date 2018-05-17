@@ -15,8 +15,7 @@ table
 	{
 		width:80%;
 		color: white;
-		margin-left: 10%;
-		border-collapse: collapse; 
+		margin-left: 10%; 
 	}
 
 th
@@ -24,12 +23,18 @@ th
 		background-color: orange;
 	}
 
-th.op1
+.op1
 	{
 		background-color: red;
+	}
+
+tr
+	{
+		text-align: center;
 	}
 
 #nom
 	{
 		background-color: white;
+		color: black;
 	}

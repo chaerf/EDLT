@@ -1,0 +1,16 @@
+body
+	{
+		background-color: #380B61;
+		padding: 0;
+		margin: 0;
+	}
+
+article
+	{
+		width: 50%;
+	}
+
+img
+	{
+		width: 100%;
+	}
