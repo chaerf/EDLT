@@ -3,11 +3,57 @@ body
 		background-color: #380B61;
 		padding: 0;
 		margin: 0;
+		font-family: arial;
+	}
+
+header
+	{
+		color:orange;
+		background-color: white;
+		padding-bottom: 3%;
+		padding-top: 3%;
+	}
+h1
+	{
+		margin: 0;
+		margin-left: 10%;
+		font-size: 5em; 
+	}
+
+nav
+	{
+		background-color: grey;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+a
+	{
+		width: 33%;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		font-weight:bold;
+		border-right: solid;
+	}
+
+.sin
+	{
+		border-right: none;
+	}
+
+section
+	{
+		background-color: white;
+		width: 60%;
+		margin-left: 20%;
+		padding: 1%;
 	}
 
 article
 	{
-		width: 50%;
+		margin-bottom: 5%;
 	}
 
 img
