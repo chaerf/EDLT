@@ -1,5 +1,4 @@
 <img src="../master/Logo-pasos/logo.png"></img>
-<br>
 <h1>Diseño Web</h1>
 <p>Este repositorio fue creado para alojar los contenidos enseñados en las clases de Diseño Web, en el Espacio para el Desarrollo Laboral y Tecnológico.</p>
 <p>Con la intención de que los alumnos puedan acceder a los contenidos y practicas vistas en clase, en cualquier momento, aunque hallan perdido alguna clase.</p>
