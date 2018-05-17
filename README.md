@@ -9,7 +9,7 @@
 	<li>
 		<h3>Buscar el repositorio</h3>
 		<img src="../master/Logo-pasos/01.png">
-		<p>Entrar en la pagina de www.github.com y en la barra de búsqueda escribir "EDLT".</p>
+		<p>Entrar en la página de www.github.com y en la barra de búsqueda escribir "EDLT".</p>
 	</li>
 	<li>
 		<h3>Encontrar el repositorio</h3>
