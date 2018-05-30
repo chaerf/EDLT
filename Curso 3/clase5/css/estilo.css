@@ -20,13 +20,28 @@ h1
 		padding-left:2%;
 	}
 
-a
+h1:hover
+	{
+		font-size: 10em;
+	}
+
+nav a
 	{
 		background-color: black;
 		text-align: center;
 		color: white;
 		display: inline-block;
 		width: 25%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		text-decoration: none;
+	}
+
+
+
+nav a:hover
+	{
+		background-color: red;
 	}
 
 section
@@ -40,21 +55,37 @@ img
 		width: 100%; 
 	}
 
+img.sec:hover
+	{
+		width: 90%;
+		margin-left: 5%; 
+	}
 
 article
 	{
-		width: 45%;
+		width: 30%;
 		display: inline-block;
-		margin-left: 3.33%;
-		margin-top:3.33%;	
+		margin-left: 3%;
+		margin-top:3%;	
 	}
+
+#prin
+	{
+		width: 96%;
+	}
+
+.actual
+	{
+		background-color: grey;
+	}
+/* ----------- ACA EMPIEZA EL CSS DE LA TABLET ----------- */
+
 
 @media screen and (max-width: 800px)
 	{
 		article
 			{
-				width: 100%;
-				margin-left: 0;
+				width: 45%;
 			}
 
 		body
@@ -62,6 +93,10 @@ article
 				background-color: red;
 			}
 	}
+
+
+/* ----------- ACA EMPIEZA EL CSS DEL CEL ----------- */
+
 
 @media screen and (max-width: 480px)
 	{
@@ -74,6 +109,11 @@ article
 		body
 			{
 				background-color: blue;
+			}
+		
+		a
+			{
+				width: 100%;
 			}
 	}
 
