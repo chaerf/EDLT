@@ -16,6 +16,12 @@ La etiqueta de cierre: Es lo mismo que la etiqueta de apertura, excepto que incl
 El contenido: Este es el contenido del elemento, que en este caso es sólo texto.
 El elemento: El elemento lo conforman la suma de la etiqueta de apertura, la etiqueta de cierre y  el contenido.
 
+**** Elementos de bloque y elementos en línea
+Hay dos categorías de elementos en HTML, que es importante que conozcas — elementos de bloque y elementos en línea.
+
+Los elementos de bloque forman un bloque visible en la página — aparecerán en una nueva línea después de cualquier contenido anterior y cualquier contenido quebvaya después también aparecerá en una nueva línea. Los elementos de bloque tienden a ser elementos estructurales en la página que representan por ejemplo párrafos, listas, menús de navegación, pies de página, etc. Un elemento bloque no estaría anidado dentro de un elemento en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque.
+Los elementos en línea son aquellos que están contenidos dentro de elementos de bloque y rodean solo pequeñas partes del contenido del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento en línea no hará que se genere una nueva línea aparezca en el documento y normalmente aparecen dentro de un párrafo o texto, por ejemplo es el caso de un elemento <a>  (hipervículo) o elementos de énfasis como <em> o <strong>.
+
 **** Atributos
 Los elementos pueden también tener atributos, que tienen el aspecto siguiente:
 
