@@ -1,4 +1,36 @@
-Partes básicas de un documentoEdit
+**** ¿Que es HTML?
+HTML (HyperText Markup Language) no es un lenguaje de programación, es un lenguaje de marcado, usado para decirle a tu navegador cómo estructurar la páginas que visitas. Puede ser tan complejo o tan simple como desee el desarrollador web. HTML consiste en una serie de  elementos, que puedes utilizar para encerrar, envolver, o marcar partes diferentes del contenido para hacer que aparezcan de una cierta manera, o actúen de determinada forma. Las etiquetas que envuelven un trozo de contenido pueden hacer que dicho contenido enlace con otra página, ponga una palabra en cursiva, etcétera. Por ejemplo, dada la siguiente línea de contenido:
+
+Mi gato es muy gruñon
+Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrándola con una etiqueta de elemento de párrafo (<p>)
+
+<p>Mi gato es muy gruñon</p>
+
+**** Anatomía de un elemento HTML
+https://mdn.mozillademos.org/files/11913/htmlexp.png
+
+Las partes principales de nuestro elemento son:
+
+La etiqueta de apertura: Esta consiste en el nombre del elemento (en este caso, p), encerrada en paréntesis angulares de apertura y cierre. Esto indica donde el elemento comienza, o empieza a tener efecto — en este caso donde comienza el párrafo.
+La etiqueta de cierre: Es lo mismo que la etiqueta de apertura, excepto que incluye una barra diagonal antes del nombre del elemento. Esto indica dónde termina el elemento— en este caso dónde finaliza el párrafo. No incluir una etiqueta de cierre es un error común de principiante, y puede conducir a resultados extraños.
+El contenido: Este es el contenido del elemento, que en este caso es sólo texto.
+El elemento: El elemento lo conforman la suma de la etiqueta de apertura, la etiqueta de cierre y  el contenido.
+
+**** Atributos
+Los elementos pueden también tener atributos, que tienen el aspecto siguiente:
+
+https://mdn.mozillademos.org/files/11915/htmlatributos.png
+
+Los atributos contienen información extra sobre el elemento que no se mostrará en el contenido. En este caso, el atributo class asigna al elemento un identificador que puede ser utilizarse para dotarlo de información de estilo y otras cosas.
+
+Un atributo debería tener:
+
+Un espacio entre él y el nombre del elemento (o atributo previo, si el elemento ya tiene uno o más atributos.)
+El nombre del atributo, seguido por un signo igual.
+Un valor del atributo, con comillas de apertura y cierre alrededor de él.
+
+
+*** Partes básicas de un documento
 Unas webs pueden y deben ser y parecer diferentes de otras, pero todas tienden a contener elementos comunes, a menos que estén destinadas a mostrar un video en pantalla completa, un juego, formen parte de un proyecto artístico concreto o simplemente estén mal estructuradas. Estos componentes son:
 
 header (encabezado)
