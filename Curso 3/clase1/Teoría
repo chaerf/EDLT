@@ -1,0 +1,17 @@
+Partes básicas de un documentoEdit
+Unas webs pueden y deben ser y parecer diferentes de otras, pero todas tienden a contener elementos comunes, a menos que estén destinadas a mostrar un video en pantalla completa, un juego, formen parte de un proyecto artístico concreto o simplemente estén mal estructuradas. Estos componentes son:
+
+header (encabezado)
+Normalmente formado por una gran franja que cruza la parte superior de la página con un encabezado y/o un logo. Esta parte suele permanecer invariable mientras navegamos entre página y página dentro de un sitio web.
+navigation bar (barra/menú de navegación)
+Son los enlaces a las principales secciones del sitio web; normalmente está formado por un menú con botones, enlaces o pestañas. Al igual que el encabezado, este contenido normalmente permanece invariable en las diferentes páginas del sitio — tener un menú inconsistente en nuestra web, inducirá a los usuarios a confusión y frustración. Muchos diseñadores web consideran el menú de navegación como parte del encabezado en lugar de un componente individual, pero esto no es necesario.
+main content (contenido principal)
+Es la parte ancha central de nuestra página y contiene el contenido único de la misma, por ejemplo el video que quieres ver, la narración que estás leyendo, el mapa que quieres consultar, los titulares de las noticias, etc. Esta parte es distinta de una página a otra dentro de nuestro sitio web.
+sidebar (menú/barra lateral)
+Suele incluir algún tipo de información adicional, enlaces, citas, ads comerciales, etc. Normalmente está relacionado con el contenido principal de la página (por ejemplo en una página de noticias, la barra lateral podría contener la biografía del autor o enlaces a artículos relacionados) pero en otras ocasiones encontraremos elementos recurrentes como un menú de navegación secundario.
+footer (pie de página)
+Parte inferior de la página que generalmente contiene la letra pequeña, el copyright o la información de contacto. Es el sitio donde colocar información común (al igual que en el encabezado) pero normalmente esta información no es tan importante o es secundaria para la propia página. El pie también se suele usar para propósitos SEO, incluyendo enlaces de acceso rápido al contenido más popular.
+Una página web "típica" podría parecerse a esta:
+
+a simple website structure example featuring a main heading, navigation menu, main content, side bar, and footer.
+https://mdn.mozillademos.org/files/12417/sample-website.png
