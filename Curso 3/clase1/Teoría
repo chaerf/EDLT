@@ -111,3 +111,17 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 We are missing one part of the puzzle — we need to discuss how to tell our declaration blocks which elements they should be applied to. This is done by prefixing each declaration block with a selector — a pattern that matches some elements on the page. The associated declarations will be applied to those elements only. The selector plus the declaration block is called a ruleset, or often simply just a rule.
 
 https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png
+
+Selectors can be divided into the following categories:
+
+Simple selectors: Match one or more elements based on element type, class, or id.
+Attribute selectors: Match one or more elements based on their attributes/attribute values.
+Pseudo-classes: Match one or more elements that exist in a certain state, such as an element that is being hovered over by the mouse pointer, or a checkbox that is currently disabled or checked, or an element that is the first child of its parent in the DOM tree.
+Pseudo-elements: Match one or more parts of content that are in a certain position in relation to an element, for example the first word of each paragraph, or generated content appearing just before an element.
+Combinators: These are not exactly selectors themselves, but ways of combining two or more selectors in useful ways for very specific selections. So for example, you could select only paragraphs that are direct descendants of divs, or paragraphs that come directly after headings.
+Multiple selectors: Again, these are not separate selectors; the idea is that you can put multiple selectors on the same CSS rule, separated by commas, to apply a single set of declarations to all the elements selected by those selectors.
+
+**** Box properties
+Every element within a document is structured as a rectangular box inside the document layout, the size and "onion layers" of which can be tweaked using some specific CSS properties. The relevant properties are as follows:
+
+https://mdn.mozillademos.org/files/13647/box-model-standard-small.png
