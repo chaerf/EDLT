@@ -53,3 +53,61 @@ Una página web "típica" podría parecerse a esta:
 
 a simple website structure example featuring a main heading, navigation menu, main content, side bar, and footer.
 https://mdn.mozillademos.org/files/12417/sample-website.png
+
+
+**** CSS
+Las Hojas de estilo en cascada (del ingles Cascading Stylesheets CSS) es la siguiente tecnología que aprenderemos después de HTML. Mientras que HTML se utiliza para definir la estructura y la semántica del contenido, CSS se usa para darle estilo y posicionarlo visualmente. CSS se puede usar, por ejemplo, para cambiar la fuente, el color, el tamaño y el espaciado del contenido, para formar multiples columnas, añadir animaciones y otros elementos decorativos.
+
+**** How does CSS affect HTML?Edit
+Web browsers apply CSS rules to a document to affect how they are displayed. A CSS rule is formed from:
+
+A set of properties, which have values set to update how the HTML content is displayed, for example I want my element's width to be 50% of its parent element, and its background to be red.
+A selector, which selects the element(s) you want to apply the updated property values to. For example, I want to apply my CSS rule to all the paragraphs in my HTML document.
+
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+
+**** How does CSS actually work?
+When a browser displays a document, it must combine the document's content with its style information. It processes the document in two stages:
+
+The browser converts HTML and CSS into the DOM (Document Object Model). The DOM represents the document in the computer's memory. It combines the document's content with its style.
+The browser displays the contents of the DOM.
+
+https://mdn.mozillademos.org/files/11781/rendering.svg
+
+**** Inline styles
+Inline styles are CSS declarations that affect one element only, contained within a style attribute:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+  </head>
+  <body>
+    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>
+    <p style="color:red;">This is my first CSS example</p>
+  </body>
+</html>
+https://mdn.mozillademos.org/files/11781/rendering.svg
+
+**** CSS declarations
+Setting CSS properties to specific values is the core function of the CSS language. The CSS engine calculates which declarations apply to every single element of a page in order to appropriately lay it out and style it. What is important to remember is that both properties and values are case-sensitive in CSS. The property and value in each pair is separated by a colon (:).
+
+https://mdn.mozillademos.org/files/3667/css%20syntax%20-%20declarations%20block.png
+
+
+**** Propiedades CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+
+**** CSS selectors and rules
+We are missing one part of the puzzle — we need to discuss how to tell our declaration blocks which elements they should be applied to. This is done by prefixing each declaration block with a selector — a pattern that matches some elements on the page. The associated declarations will be applied to those elements only. The selector plus the declaration block is called a ruleset, or often simply just a rule.
+
+https://mdn.mozillademos.org/files/3668/css%20syntax%20-%20ruleset.png
